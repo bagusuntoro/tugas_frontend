@@ -1,0 +1,191 @@
+body {
+  margin:0;
+  background-color: rgba(135, 133, 134, 0.8);
+}
+
+/* navigasi */
+.navbar {
+    overflow: hidden;
+    background-color: #381cd1;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  .navbar a {
+    float: right;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  .navbar .home{
+      padding-left: 60px;
+      float: left;
+      font-size: 20px;
+  }
+  
+  .dropdown {
+    float: right;
+    overflow: hidden;
+  }
+  
+  .dropdown .dropbtn {
+    font-size: 20px;  
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: #dae912;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: fixed;
+    background-color: #381cd1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: #ffffff;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #dae912;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+
+  main{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    /*gap: 10px;*/
+    padding: 10px;
+  }
+
+  main>.content{
+    /*border: 4px solid;*/
+  }
+
+  .info{
+    width: 300px;
+  }
+  .profil{
+    margin-left: 100px;
+  }
+
+  aside{
+    border: 4px solid;
+  }
+
+  aside>h1{
+    text-align: center;
+  }
+
+
+  p {
+    padding: 6px;
+  }
+
+  /* about */
+  #about,.judul{
+      padding-top: 40px;
+  }
+
+
+  /* it */
+  .it{
+      padding-top: 40px;
+  }
+
+  /* mmb */
+  .mmb{
+      padding-top: 40px;
+  }
+
+  /* elektro */
+  .elektro{
+      padding-top: 40px;
+  }
+
+
+  /* table */
+  .table{
+    padding-top: 50px;
+  }
+  table {
+    margin: auto;
+    background-color: #381cd1;
+    color: #ffffff;
+    border-collapse: collapse;
+    width: 90%;
+  }
+  
+  th, td {
+    padding: 8px;
+    text-align: center;
+    border-bottom: 1px solid #dae912;
+    border-left: 1px solid #dae912;
+  }
+  
+  tr:hover {
+    background-color: #dae912;
+  }
+
+
+
+
+  /* contact */
+  .contact>h2{
+    padding-top: 40px;
+  }
+
+  .contact>form{
+    padding-left: 300px;
+  }
+
+  label, input.input, textarea{
+    width: 70%;
+    
+  }
+  .wa{
+    z-index: 99999;
+    position: fixed;
+    left: 20px;
+    bottom: 6px;
+  }
+
+
+  /* footer */
+  footer{
+    height: 200px;
+    background: #000;
+    color: #ffffff;
+  }
+
+  footer>p{
+    padding-top: 50px;
+  }
+
+  footer>p>a{
+    text-decoration: none;
+    color: #dae912;
+  }
