@@ -1,0 +1,367 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Landing Page</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+
+  <!-- css -->
+  <link rel="stylesheet" href="css/style.css">
+  <!-- icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+  <!-- aos -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+
+<body id="home">
+  <!-- navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-success fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#product">Product</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#gallery">Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- akhir navbar -->
+
+
+  <!-- slider -->
+  <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="img/scroll/1.avif" class="d-block w-100" alt="codingan" height="450">
+      </div>
+      <div class="carousel-item">
+        <img src="img/scroll/2.avif" class="d-block w-100" alt="codingan" height="450">
+      </div>
+      <div class="carousel-item">
+        <img src="img/scroll/3.avif" class="d-block w-100" alt="codingan" height="450">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <!-- akhir slider -->
+
+
+  <!-- about -->
+  <section class="about" id="about">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 text-center pt-5 mt-5 mb-5" data-aos="fade-down" data-aos-offset="400"
+          data-aos-duration="2000">
+          <h2>About</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-6" data-aos="fade-right" data-aos-duration="2000">
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus odit consequuntur provident unde
+            corporis optio assumenda non similique, suscipit debitis pariatur laudantium nam architecto! Harum nostrum
+            odit explicabo praesentium cumque?</p>
+        </div>
+        <div class="col-sm-6" data-aos="fade-left" data-aos-duration="2000">
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto eaque veritatis voluptates laudantium
+            veniam fugit quos numquam! Aperiam cumque, pariatur esse commodi possimus animi minus, ratione est odit
+            expedita dicta, sunt rem omnis! Maxime, ex odio officiis assumenda qui est.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- akhir about -->
+
+
+  <!-- product -->
+  <section class="product" id="product">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 pt-5 mt-5 mb-5 text-center" data-aos="fade-right" data-aos-duration="2000">
+          <h2>Product</h2>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-4">
+          <div class="card text-white bg-primary mb-3" style="max-width: 18rem;" data-aos="fade-down"
+            data-aos-offset="400" data-aos-duration="2000">
+            <div class="card-header text-center">
+              <img src="img/product/1.avif" alt="tes" width="200">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Primary card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="card text-white bg-secondary mb-3" style="max-width: 18rem;" data-aos="flip-left"
+            data-aos-offset="400" data-aos-duration="2000" data-aos-delay="100">
+            <div class="card-header text-center">
+              <img src="img/product/3.avif" alt="tes" width="200">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Primary card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="card text-white bg-success mb-3" style="max-width: 18rem;" data-aos="flip-up"
+            data-aos-offset="400" data-aos-duration="2000" data-aos-delay="200">
+            <div class="card-header text-center">
+              <img src="img/product/4.avif" alt="tes" width="200">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Primary card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-4">
+          <div class="card text-white bg-danger mb-3" style="max-width: 18rem;" data-aos="fade-up"
+            data-aos-duration="2000" data-aos-delay="300">
+            <div class="card-header text-center">
+              <img src="img/product/5.avif" alt="tes" width="200">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Primary card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="card text-white bg-warning mb-3" style="max-width: 18rem;" data-aos="flip-right"
+            data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+            <div class="card-header text-center">
+              <img src="img/product/6.avif" alt="tes" width="200">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Primary card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="card text-white bg-info mb-3" style="max-width: 18rem;" data-aos="flip-left"
+            data-aos-duration="2000" data-aos-delay="100">
+            <div class="card-header text-center">
+              <img src="img/product/7.avif" alt="tes" width="200">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Primary card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- akhir product -->
+
+
+
+
+
+
+  <!-- gallery -->
+  <section class="gallery" id="gallery">
+    <div class="container">
+      <div class="row text-center">
+        <div class="col-sm-12 pt-5 mt-5 pb-5" data-aos="fade-down" data-aos-offset="400" data-aos-duration="2000">
+          <h2>Gallery</h2>
+        </div>
+      </div>
+
+      <div class="row mb-4">
+        <div class="col-sm-3" data-aos="fade-down" data-aos-offset="400" data-aos-duration="2000"><img
+            src="img/gallery/1.jpg" class="img-thumbnail" alt="gallery"></div>
+        <div class="col-sm-3" data-aos="fade-up" data-aos-offset="400" data-aos-duration="2000" data-aos-delay="100">
+          <img src="img/gallery/2.jpg" class="img-thumbnail" alt="gallery">
+        </div>
+        <div class="col-sm-3" data-aos="flip-left" data-aos-offset="400" data-aos-duration="2000" data-aos-delay="200">
+          <img src="img/gallery/3.jpg" class="img-thumbnail" alt="gallery">
+        </div>
+        <div class="col-sm-3" data-aos="flip-right" data-aos-offset="400" data-aos-duration="2000" data-aos-delay="300">
+          <img src="img/gallery/4.jpg" class="img-thumbnail" alt="gallery">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-3" data-aos="flip-up" data-aos-duration="2000" data-aos-delay="300"><img
+            src="img/gallery/5.jpg" class="img-thumbnail" alt="gallery"></div>
+        <div class="col-sm-3" data-aos="flip-left" data-aos-duration="2000" data-aos-delay="200"><img
+            src="img/gallery/6.jpg" class="img-thumbnail" alt="gallery"></div>
+        <div class="col-sm-3" data-aos="flip-down" data-aos-duration="2000" data-aos-delay="200"><img
+            src="img/gallery/7.jpg" class="img-thumbnail" alt="gallery"></div>
+        <div class="col-sm-3" data-aos="flip-right" data-aos-duration="2000" data-aos-delay="300"><img
+            src="img/gallery/8.jpg" class="img-thumbnail" alt="gallery"></div>
+      </div>
+
+    </div>
+  </section>
+  <!-- akhir gallery -->
+
+
+
+  <!-- support -->
+  <a href="" class="fixed-bottom">
+    <img src="https://img.icons8.com/plasticine/100/000000/technical-support.png" class="float-end" />
+  </a>
+  <!-- akhir support -->
+
+
+
+  <!-- contact -->
+  <section class="conatct" id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 pt-5 mt-5 mb-5 text-center">
+          <h2>Contact</h2>
+        </div>
+      </div>
+
+      <div class="row">
+
+        <div class="col-sm-1">
+          <div class="row">
+            <a href="https://wa.me/6281907150504?text=Halo%20Bagus%20Untoro,%20salam%20kenal" target="_blank"><img
+                src="https://img.icons8.com/color/48/000000/whatsapp--v1.png" data-aos="fade-down-left"
+                data-aos-duration="2000" /></a>
+            <p>WhatsApp</p>
+          </div>
+
+          <div class="row">
+            <a href="https://www.facebook.com/bagus.untoro.370" target="_blank"><img
+                src="https://img.icons8.com/color/48/000000/facebook-new.png" data-aos="fade-down-right"
+                data-aos-duration="2250" /></a>
+            <p>Facebook</p>
+          </div>
+
+          <div class="row">
+            <a href="https://www.instagram.com/untoro.bagus/" target="_blank"><img
+                src="https://img.icons8.com/fluency/48/000000/instagram-new.png" data-aos="fade-up-left"
+                data-aos-duration="2500" /></a>
+            <p>Instagram</p>
+          </div>
+
+          <div class="row">
+            <a href="https://twitter.com/BagusUntoro7" target="_blank"><img
+                src="https://img.icons8.com/fluency/48/000000/twitter.png" data-aos="fade-up-right"
+                data-aos-duration="3000" /></a>
+            <p>Twitter</p>
+          </div>
+        </div>
+
+        <div class="col-sm-2"></div>
+
+
+        <div class="col-sm-9">
+          <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Nama</label>
+            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="masukkan nama">
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Email</label>
+            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="masukkan email">
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Lampiran</label>
+            <input type="file" class="form-control" id="exampleFormControlInput1">
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Pesan</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          </div>
+          <button type="button" class="btn btn-success">Kirim</button>
+        </div>
+      </div>
+      <br><br>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63359.974810638465!2d113.79065773783175!3d-7.009466866300881!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd9e681188ea6e3%3A0x4027a76e3cdb720!2sSumenep%2C%20Dalem%20Anyar%2C%20Bangselok%2C%20Kec.%20Kota%20Sumenep%2C%20Kabupaten%20Sumenep%2C%20Jawa%20Timur!5e0!3m2!1sid!2sid!4v1661690289835!5m2!1sid!2sid"
+        width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </section>
+  <!-- akhir contact -->
+
+
+
+  <footer>
+    <p>&copy; Copyright 2022 with <i class="bi bi-heart-fill text-danger">
+      </i> by. <a href="#link">Bagus Untoro</a>
+    </p>
+    <div class="btn bg-danger youtube">
+      <i class="bi bi-play-fill fs-5 text-light"></i> Subscribe
+    </div>
+  </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      // once:true,
+    });
+  </script>
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

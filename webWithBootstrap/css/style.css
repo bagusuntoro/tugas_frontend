@@ -1,0 +1,32 @@
+* {
+    color: #ffffff;
+}
+
+#about {
+    background-color: #5c5134;
+}
+
+#product {
+    background-color: #455750;
+}
+
+#gallery {
+    background-color: #5b5261;
+}
+
+#contact {
+    background-color: #77576c;
+}
+
+footer {
+    height: 200px;
+    background-color: #131212;
+    color: #505050 !important;
+    text-align: center;
+    padding-top: 20px;
+}
+
+[href="#link"] {
+    text-decoration: none;
+    color: #cacc5d;
+}
