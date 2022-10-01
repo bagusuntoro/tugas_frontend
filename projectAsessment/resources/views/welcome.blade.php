@@ -8,6 +8,7 @@
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+        <link href="{{ mix('css/app.css') }}" rel="stylesheet">
 
         <!-- Styles -->
         <style>
@@ -22,8 +23,12 @@
     </head>
     <body class="antialiased">
         <div id="app">
-            <product-component></product-component>
-            <keranjang-component></keranjang-component>
+            <main-component></main-component>
+            <card-component></cart-component>
+            <!-- <example-component></example-component> -->
+            <!-- <product-component></product-component> -->
+            <!-- <keranjang-component></keranjang-component> -->
+            <!-- <to-do></to-do> -->
         </div>
     <script src="{{mix('js/app.js')}}" type="text/javascript"></script>
     </body>

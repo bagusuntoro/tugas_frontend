@@ -19,10 +19,19 @@ window.Vue = require('vue').default;
 // const files = require.context('./', true, /\.vue$/i)
 // files.keys().map(key => Vue.component(key.split('/').pop().split('.')[0], files(key).default))
 
-Vue.component('example-component', require('./components/ExampleComponent.vue').default);
-Vue.component('product-component', require('./components/ProductComponent.vue').default);
-Vue.component('keranjang-component', require('./components/KeranjangComponent.vue').default);
+// Vue.component('example-component', require('./components/ExampleComponent.vue').default);
+// Vue.component('product-component', require('./components/ProductComponent.vue').default);
+// Vue.component('keranjang-component', require('./components/KeranjangComponent.vue').default);
+// Vue.component('to-do', require('./components/ToDoComponent.vue').default);
+// Vue.component('input-form', require('./components/InputFormComponent.vue').default);
+// Vue.component('list', require('./components/ListComponent.vue').default);
 
+
+// bismillah
+
+Vue.component('main-component', require('./projectAssignment/Main.vue').default);
+Vue.component('list-component', require('./projectAssignment/ListProduct.vue').default);
+Vue.component('cart-component', require('./projectAssignment/CartProduct.vue').default);
 
 
 /**

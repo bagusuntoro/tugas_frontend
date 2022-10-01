@@ -10815,3 +10815,38 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+.container {
+  width: 500px;
+  margin: 0 auto;
+}
+
+.form input {
+  border: 1px solit #ccc;
+  padding: 10px;
+}
+
+.form button {
+  padding: 10px;
+  background-color: darksalmon;
+  border: 1px solid darksalmon;
+  color: #fff;
+  cursor: pointer;
+}
+
+.list {
+  padding: 10px;
+}
+
+.list li {
+  list-style: square;
+  margin-bottom: 5px;
+  font-size: 18px;
+}
+
+.list li .delete {
+  font-size: 11px;
+  color: darksalmon;
+  margin-left: 5px;
+  vertical-align: middle;
+  cursor: pointer;
+}
