@@ -35,7 +35,6 @@ export default {
           qty:0
         }
       ]
-      // harga:[total]
     }
   },
   mounted(){
@@ -44,8 +43,6 @@ export default {
 
   methods:{
     addProduct(index){
-      // this.$emit('emitClickProduct', index)
-      // this.product[index].status=true;
       this.product[index].qty++;
       this.product[index].stock--;
       this.product[index].total=this.product[index].price*this.product[index].qty;

@@ -5456,15 +5456,12 @@ __webpack_require__.r(__webpack_exports__);
         price: 10000,
         total: 0,
         qty: 0
-      }] // harga:[total]
-
+      }]
     };
   },
   mounted: function mounted() {},
   methods: {
     addProduct: function addProduct(index) {
-      // this.$emit('emitClickProduct', index)
-      // this.product[index].status=true;
       this.product[index].qty++;
       this.product[index].stock--;
       this.product[index].total = this.product[index].price * this.product[index].qty;
@@ -5505,12 +5502,6 @@ window.Vue = (__webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.esm.js
  */
 // const files = require.context('./', true, /\.vue$/i)
 // files.keys().map(key => Vue.component(key.split('/').pop().split('.')[0], files(key).default))
-// Vue.component('example-component', require('./components/ExampleComponent.vue').default);
-// Vue.component('product-component', require('./components/ProductComponent.vue').default);
-// Vue.component('keranjang-component', require('./components/KeranjangComponent.vue').default);
-// Vue.component('to-do', require('./components/ToDoComponent.vue').default);
-// Vue.component('input-form', require('./components/InputFormComponent.vue').default);
-// Vue.component('list', require('./components/ListComponent.vue').default);
 // bismillah
 
 Vue.component('main-component', (__webpack_require__(/*! ./projectAssignment/Main.vue */ "./resources/js/projectAssignment/Main.vue")["default"]));

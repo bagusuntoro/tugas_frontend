@@ -24,7 +24,7 @@
     <body class="antialiased">
         <div id="app">
             <main-component></main-component>
-            <card-component></cart-component>
+            <!-- <card-component></cart-component> -->
             <!-- <example-component></example-component> -->
             <!-- <product-component></product-component> -->
             <!-- <keranjang-component></keranjang-component> -->
