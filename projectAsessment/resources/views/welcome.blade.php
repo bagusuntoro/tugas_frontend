@@ -24,11 +24,6 @@
     <body class="antialiased">
         <div id="app">
             <main-component></main-component>
-            <!-- <card-component></cart-component> -->
-            <!-- <example-component></example-component> -->
-            <!-- <product-component></product-component> -->
-            <!-- <keranjang-component></keranjang-component> -->
-            <!-- <to-do></to-do> -->
         </div>
     <script src="{{mix('js/app.js')}}" type="text/javascript"></script>
     </body>
