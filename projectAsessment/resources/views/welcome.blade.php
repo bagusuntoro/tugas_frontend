@@ -23,8 +23,10 @@
     </head>
     <body class="antialiased">
         <div id="app">
-            <main-component></main-component>
+            <!-- <main-component></main-component> -->
+            <router-view></router-view>
         </div>
     <script src="{{mix('js/app.js')}}" type="text/javascript"></script>
+    <!-- <script src="../js/app.js"></script> -->
     </body>
 </html>

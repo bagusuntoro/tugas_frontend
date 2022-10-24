@@ -1,3 +1,11 @@
+// const app = new Vue({
+//     el: '#app',
+//     router
+// });
+
+
+
+
 /**
  * First we will load all of this project's JavaScript dependencies which
  * includes Vue and other libraries. It is a great starting point when
@@ -22,9 +30,17 @@ window.Vue = require('vue').default;
 
 
 // bismillah
-Vue.component('main-component', require('./projectAssignment/Main.vue').default);
-Vue.component('list-component', require('./projectAssignment/ListProduct.vue').default);
-Vue.component('cart-component', require('./projectAssignment/CartProduct.vue').default);
+
+// this is home page
+Vue.component('home-component', require('./projectAssignment/Home.vue').default);
+
+// this is parent component
+Vue.component('parent-product', require('./projectAssignment/ParentProduct.vue').default);
+Vue.component('parent-cart', require('./projectAssignment/ParentCart.vue').default);
+
+// this is child component
+Vue.component('list-component', require('./projectAssignment/ChildProduct.vue').default);
+Vue.component('cart-component', require('./projectAssignment/ChildCart.vue').default);
 
 
 
@@ -34,6 +50,28 @@ Vue.component('cart-component', require('./projectAssignment/CartProduct.vue').d
  * or customize the JavaScript scaffolding to fit your unique needs.
  */
 
+// const app = new Vue({
+//     el: '#app',
+// });
+
+
+import store from './store'
+require('./bootstrap');
+
+
+import Vue from 'vue';
+import VueRouter from 'vue-router';
+import { routes } from './routes'
+
+Vue.use(VueRouter);
+const router = new VueRouter({
+    mode: 'history',
+    routes
+});
+
+
 const app = new Vue({
     el: '#app',
+    store,
+    router
 });

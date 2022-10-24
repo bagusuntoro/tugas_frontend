@@ -20,6 +20,8 @@
         </td>
       </tr>
     </table>
+
+    <!-- <router-link to="/">Back</router-link> -->
   </div>
 </template>
 
@@ -56,10 +58,9 @@ export default {
 
 
   button{
-    padding: 10px;
-    border-radius: 15px;
-    background-color: #4f76f5;
-    color:white;
+    padding: 5px 10px;
+    border-radius: 10px;
+    background-color: lightblue;
     cursor:pointer;
   }
 
